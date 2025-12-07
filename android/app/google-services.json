@@ -1,9 +1,9 @@
 {
   "project_info": {
     "project_number": "405933001157",
-    "firebase_url": "https://guardianeye-gomp3-default-rtdb.firebaseio.com",
-    "project_id": "guardianeye-gomp3",
-    "storage_bucket": "guardianeye-gomp3.firebasestorage.app"
+    "firebase_url": "https://guardian-child-app-default-rtdb.firebaseio.com",
+    "project_id": "guardian-child-app",
+    "storage_bucket": "guardian-child-app.appspot.com"
   },
   "client": [
     {
@@ -13,15 +13,33 @@
           "package_name": "com.guardian.child"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "405933001157-38jnh2pruir3avv7u8lfr5rrs92duc7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guardian.child",
+            "certificate_hash": []
+          }
+        },
+        {
+          "client_id": "405933001157-g62edpa3s6jrnplu83k84k5od9cf1m3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyD-tPNLBb39biB33bEJGYeK8U8pYIrqNKQ"
+          "current_key": "AIzaSyDFt_6yZ_A_Z_A_Z_A_Z_A_Z_A_Z_A_Z_A"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405933001157-g62edpa3s6jrnplu83k84k5od9cf1m3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

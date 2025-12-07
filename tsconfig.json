@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "jsx": "react-native",
     "lib": ["DOM", "ES2019"],
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
@@ -16,9 +16,7 @@
     "sourceMap": true,
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
@@ -32,5 +30,6 @@
     "babel.config.js",
     "metro.config.js",
     "jest.config.js"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }

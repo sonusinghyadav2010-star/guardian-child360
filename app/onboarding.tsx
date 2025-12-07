@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import { Stack, useNavigation, useRouter } from 'expo-router'; // Keep useRouter for potential future use or if other parts use it
+import { Stack, useNavigation, useRouter } from 'expo-router';
 
 export default function OnboardingScreen() {
-  const router = useRouter(); // Keep useRouter if needed elsewhere, otherwise it can be removed
-  const navigation = useNavigation(); // Uncomment and use useNavigation for native stack navigation directly
+  const router = useRouter();
+  const navigation = useNavigation();
 
   return (
     <View style={styles.container}>
@@ -13,7 +13,7 @@ export default function OnboardingScreen() {
       <Text style={styles.subtitle}>Let's get you paired with your parent.</Text>
       <Button
         title="Start Pairing"
-        onPress={() => navigation.navigate('permissions-status')} // Changed navigation target to permissions-status
+        onPress={() => navigation.navigate('permissions-status')} 
       />
     </View>
   );

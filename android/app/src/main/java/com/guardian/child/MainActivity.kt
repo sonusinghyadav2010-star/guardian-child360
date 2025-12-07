@@ -1,4 +1,4 @@
-package com.guardianchildapp
+package com.guardian.child
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build
